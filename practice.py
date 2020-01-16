@@ -25,8 +25,9 @@ def process_word(self, word, order = 2):
         self.suffix_map[self.prefix].append(word)
         except KeyError:
         # if there is no entry for this prefix, make one
-        self.suffix_map[self.prefix] = [word]
-           self.prefix = shift9self.prefix, word)
+             self.suffix_map[self.prefix] = [word]
+           
+        self.prefix = shift9self.prefix, word)
            
           
 
